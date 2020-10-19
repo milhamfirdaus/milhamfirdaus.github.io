@@ -11,8 +11,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
-	min-height: 100vh;
+	flex-direction: row;
+	min-height: 95vh;
 	margin:0 auto;
 }
 
@@ -36,7 +36,7 @@ p {
 }
 
 .pro {
-	color: #231E39;
+	color: #f6f5f5;
 	background-color: #FEBB0B;
 	border-radius: 3px;
 	font-size: 14px;
@@ -53,6 +53,7 @@ p {
 }
 
 .buttons{
+	margin-bottom: 20px;
 }
 
 .round {
@@ -86,7 +87,7 @@ a.primary.ghost {
 	background-color: #1a1a2e;
 	text-align: left;
 	padding: 15px;
-	margin-top: 30px;
+	padding-top: 20px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
