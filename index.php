@@ -83,12 +83,12 @@
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
 				    	<div style="background: black; overflow: hidden;">
-				      		<img src="./image/2.jpg" alt="..." style="max-width: 100%; opacity: 0.7;">
+				      		<img src="image/2.jpg" alt="..." style="max-width: 100%; opacity: 0.7;">
 				    	</div>
 				    </div>
 				    <div class="carousel-item">
 				    	<div style="background: black; overflow: hidden;">
-				      		<img src="./image/1.jpg" alt="..." style="max-width: 100%; opacity: 0.7;">
+				      		<img src="image/1.jpg" alt="..." style="max-width: 100%; opacity: 0.7;">
 				    	</div>
 				    </div>
 				  </div>
@@ -111,11 +111,11 @@
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
 				    	<div style="background: black; overflow: hidden;">
-				      		<img src="./image/4.png" alt="..." style="max-width: 100%; opacity: 0.7;">
+				      		<img src="image/4.png" alt="..." style="max-width: 100%; opacity: 0.7;">
 				    	</div>
 				    </div><div class="carousel-item">
 				    	<div style="background: black; overflow: hidden;">
-				      		<img src="./image/3.jpg" alt="..." style="max-width: 100%; opacity: 0.7;">
+				      		<img src="image/3.jpg" alt="..." style="max-width: 100%; opacity: 0.7;">
 				    	</div>
 				    </div>
 				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
