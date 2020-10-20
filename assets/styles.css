@@ -58,11 +58,14 @@ p {
 
 .profile{
 	width: 100%;
-	margin-bottom: 5px;
 }
 
 .buttons{
-	margin-bottom: 20px;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
 }
 
 .round {
@@ -81,8 +84,8 @@ a.primary {
 	border-radius: 3px;
 	color: #1a1a2e;
 	font-family: Montserrat, sans-serif;
-	font-size: 12px;
-	padding: 5px 20px;
+	font-size: 11px;
+	padding: 5px 10px;
 	margin: 10px;
 	text-decoration: none;
 }
