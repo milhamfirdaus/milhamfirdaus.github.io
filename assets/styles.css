@@ -115,3 +115,7 @@ a.primary.ghost {
 	position: fixed;
 	z-index: 100;
 }
+
+.custom-modal {
+color : black;
+}
