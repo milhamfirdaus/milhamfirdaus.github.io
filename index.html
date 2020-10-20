@@ -10,9 +10,21 @@
 	</head>
 	<body>
 		<div class="card-container">
-			<a class="pro" data-toggle="collapse" data-target="#contact" href="#">
-				Contact
+			<a class="pro" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+				Profile &nbsp;<i class="fas fa-caret-down"></i>
 			</a>
+			<div class="dropdown-menu dropper" aria-labelledby="dropdownMenuLink">
+				    <a class="dropdown-item" href="https://github.com/muhamadilhamfirdaus" target="_blank">
+				    	<i class="fab fa-github"></i> &nbsp;Github
+				    </a>
+				    <a class="dropdown-item" href="https://www.linkedin.com/in/muhamadilhamfirdaus" target="_blank">
+					    <i class="fab fa-linkedin"></i> &nbsp;Linkedin
+					</a>
+					<a class="dropdown-item" href="#" data-toggle="collapse" data-target="#contact">
+					    <i class="fas fa-phone-alt"></i> &nbsp;Contact
+					</a>
+				    
+				  </div>
 			<div class="profile">
 		        <img class="round" src="https://avatars0.githubusercontent.com/u/61300920?s=400&u=39d95a040c521aa2178cfd2ea57437c259ee47f7&v=4" alt="user" />
 		        <h5>Muhamad Ilham Firdaus</h5>
@@ -23,21 +35,11 @@
 		    </div>
 			<div class="buttons">
 				<div class="dropdown show">
-				  <a class="primary " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				    <i class="far fa-address-card"></i> &nbsp; Profile &nbsp;<i class="fas fa-caret-down"></i>
-				  </a>
-
-				  <div class="dropdown-menu dropper" aria-labelledby="dropdownMenuLink">
-				    <a class="dropdown-item" href="https://github.com/muhamadilhamfirdaus" target="_blank">
-				    	<i class="fab fa-github"></i> &nbsp;Github
-				    </a>
-				    <a class="dropdown-item" href="https://www.linkedin.com/in/muhamadilhamfirdaus" target="_blank">
-					    <i class="fab fa-linkedin"></i> &nbsp;Linkedin
-					</a>
-				    
-				  </div>
+				  	<a class="primary " href="#" data-toggle="collapse" data-target="#skill-show" onclick="hideContact()">
+				    	<i class="fas fa-code"></i> &nbsp; Skill
+				  	</a>
 				 	<a class="primary ghost" data-toggle="modal" data-target="#exampleModalCenter" href="#">
-						<i class="fas fa-code"></i> &nbsp; Portofolio
+						<i class="fas fa-briefcase"></i> &nbsp; Works
 					</a>
 				</div>
 			</div>
@@ -49,29 +51,31 @@
 		    				<i class="far fa-envelope"></i>&nbsp; muhamadilhamfirdaus@hotmail.com
 		    			</a>
 		    		</div>
-		    		<div>
+		    		<!-- <div>
 		    			<a class="external-links" href="https://api.whatsapp.com/send?phone=+6281912949885" onclick="hideContact()" >
 		    				<i class="fas fa-phone-alt"></i>&nbsp; +62 819-1294-9885
 		    			</a>
-		    		</div>
+		    		</div> -->
 		    	</div>
 			</div>
 			<div class="skills">
-				<h6>Skills</h6>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>PHP</li>
-					<li>MySQL</li>
-					<li>Codeigniter</li>
-					<li>JavaScript (Node.js)</li>
-					<li>React Native</li>
-					<li>Bootstrap</li>
-				</ul>
-
-				<div class="more">
-					<a class="external-links" href="#" data-toggle="collapse" data-target="#about">More about me</a>
-				<div>
+				<div class="collapse" id="skill-show" style="margin-bottom: 15px;"> 
+					<h6>Skills</h6>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>PHP</li>
+						<li>MySQL</li>
+						<li>Codeigniter</li>
+						<li>JavaScript (Node.js)</li>
+						<li>React Native</li>
+						<li>Bootstrap</li>
+					</ul>
+				</div>
+				<div class="collapse in show" id="about-show" > 
+					<h6>About</h6>
+					<p style="font-size: 13px;">Saya sarjana Teknik Informatika, memiliki skill dan pengalaman sebagai Web & Mobile Developer.</p>
+				</div>
 			</div>
 		</div>
 	</body>
@@ -168,8 +172,11 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script type="text/javascript">
 			function hideContact(){
-				$('#contact').collapse('hide');	
-			}			
+				$('#contact').collapse('hide');
+			}
+			function hideSkill(){
+				$('#skill').collapse('hide');
+			}
 		</script>
 	</footer>
 </html>
