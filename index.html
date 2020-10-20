@@ -27,7 +27,7 @@
 				    <i class="far fa-address-card"></i> &nbsp; Profile &nbsp;<i class="fas fa-caret-down"></i>
 				  </a>
 
-				  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="font-size:12px !important;">
+				  <div class="dropdown-menu dropper" aria-labelledby="dropdownMenuLink">
 				    <a class="dropdown-item" href="https://github.com/muhamadilhamfirdaus" target="_blank">
 				    	<i class="fab fa-github"></i> &nbsp;Github
 				    </a>
@@ -43,14 +43,14 @@
 			</div>
 			<div class="collapse" id="contact">
 		    	<div class="bg-dark p-4">
-		    		<h6>Contact me</h6>
+		    		<h6>Contact me :</h6>
 		    		<div>
-		    			<a href="mailto:muhamadilhamfirdaus@hotmail.com" onclick="hideContact()" style="color: #f6f5f5; font-size: 11px;">
+		    			<a class="external-links" href="mailto:muhamadilhamfirdaus@hotmail.com" onclick="hideContact()" >
 		    				<i class="far fa-envelope"></i>&nbsp; muhamadilhamfirdaus@hotmail.com
 		    			</a>
 		    		</div>
 		    		<div>
-		    			<a href="https://api.whatsapp.com/send?phone=+6281912949885" onclick="hideContact()" style="color: #f6f5f5;font-size: 11px;">
+		    			<a class="external-links" href="https://api.whatsapp.com/send?phone=+6281912949885" onclick="hideContact()" >
 		    				<i class="fas fa-phone-alt"></i>&nbsp; +62 819-1294-9885
 		    			</a>
 		    		</div>
@@ -69,8 +69,8 @@
 					<li>Bootstrap</li>
 				</ul>
 
-				<div style="text-align: center; margin-top: 10px;">
-					<a href="#" data-toggle="collapse" data-target="#about" style="color: #f6f5f5; font-size: 12px;">More about me</a>
+				<div class="more">
+					<a class="external-links" href="#" data-toggle="collapse" data-target="#about">More about me</a>
 				<div>
 			</div>
 		</div>
@@ -89,7 +89,6 @@
 			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
 			    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-home" aria-selected="true">Project 1</a>
 			    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-profile" aria-selected="false">Project 2</a>
-			    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-profile" aria-selected="false">Project 3</a>
 			  </div>
 			</nav>
 			<div class="tab-content" id="nav-tabContent">
@@ -97,28 +96,28 @@
 				  	<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					    	<div style="background: black; overflow: hidden;">
-					      		<img src="image/engilearning/1.png" alt="..." style="max-width: 100%; opacity: 0.9;">
+					    	<div class="image-container">
+					      		<img src="image/engilearning/1.png" class="image-slide">
 					    	</div>
 					    </div>
 					    <div class="carousel-item">
-					    	<div style="background: black; overflow: hidden;">
-					      		<img src="image/engilearning/2.png" alt="..." style="max-width: 100%; opacity: 0.9;">
+					    	<div class="image-container">
+					      		<img src="image/engilearning/2.png" class="image-slide">
 					    	</div>
 					    </div>
 					    <div class="carousel-item">
-					    	<div style="background: black; overflow: hidden;">
-					      		<img src="image/engilearning/3.png" alt="..." style="max-width: 100%; opacity: 0.9;">
+					    	<div class="image-container">
+					      		<img src="image/engilearning/3.png" class="image-slide">
 					    	</div>
 					    </div>
 					    <div class="carousel-item">
-					    	<div style="background: black; overflow: hidden;">
-					      		<img src="image/engilearning/4.png" alt="..." style="max-width: 100%; opacity: 0.9;">
+					    	<div class="image-container">
+					      		<img src="image/engilearning/4.png" class="image-slide">
 					    	</div>
 					    </div>
 					    <div class="carousel-item">
-					    	<div style="background: black; overflow: hidden;">
-					      		<img src="image/engilearning/5.png" alt="..." style="max-width: 100%; opacity: 0.9;">
+					    	<div class="image-container">
+					      		<img src="image/engilearning/5.png" class="image-slide">
 					    	</div>
 					    </div>
 					  </div>
@@ -131,7 +130,7 @@
 					    <span class="sr-only">Next</span>
 					  </a>
 					</div>
-					<div style="margin-top: 10px; padding: 5px;">
+					<div class="image-desc">
 						<h5>Engilearning (E-learning Teknik Informatika)</h5>
 	  					<p>Demo : <a href="#" class="tooltip-test" title="Github" target="_blank">click here</a></p>
 					</div>
@@ -140,8 +139,8 @@
 			  		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					    	<div style="background: black; overflow: hidden;">
-					      		<img src="image/kesrawan/1.jpg" alt="..." style="max-width: 100%; opacity: 0.9;">
+					    	<div class="image-container">
+					      		<img src="image/kesrawan/1.jpg" alt="..." class="image-slide">
 					    	</div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -152,7 +151,7 @@
 					    <span class="sr-only">Next</span>
 					  </a>
 					</div>
-					<div style="margin-top: 10px; padding: 5px;">
+					<div class="image-desc">
 						<h5>Simpel Kesrawan</h5>
 	  					<p>Demo : <a href="#" class="tooltip-test" title="Github" target="_blank">click here</a></p>
 					</div>

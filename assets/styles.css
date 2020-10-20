@@ -35,6 +35,15 @@ p {
 	flex-direction: column;
 }
 
+.more {
+	text-align: center; 
+	margin-top: 10px;
+}
+
+.dropper {
+	font-size:12px !important;
+}
+
 .pro {
 	color: #f6f5f5;
 	background-color: #FEBB0B;
@@ -117,5 +126,22 @@ a.primary.ghost {
 }
 
 .custom-modal {
-color : black;
+	color : #1a1a2e;
+}
+
+.external-links {
+	color: #f6f5f5; font-size: 11px;
+}
+
+.image-container{
+	background: black; 
+	overflow: hidden;
+}
+.image-slide {
+	max-width: 100%; 
+	opacity: 0.9;
+}
+.image-desc {
+	margin-top: 10px; 
+	padding: 5px;
 }
